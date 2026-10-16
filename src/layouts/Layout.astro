@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+import { site } from '../data/site';
+const { title = '中鼎文物｜文物藝術・資訊科技・國際貿易', description = '探索中鼎文物的典藏選輯、圖鑑出版與藝術服務，並了解資訊科技採購及國際貿易合作。' } = Astro.props;
+const path = Astro.url.pathname;
+const links = [['/collection/','文物典藏'],['/services/','專業服務'],['/publications/','圖鑑出版'],['/about/','關於中鼎']];
+---
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} /><meta name="theme-color" content="#111715" />
+    <title>{title}</title><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={new URL(path,Astro.site)} />
+    <meta property="og:type" content="website" /><meta property="og:locale" content="zh_TW" />
+    <meta property="og:title" content={title} /><meta property="og:description" content={description} />
+    <meta property="og:url" content={new URL(path,Astro.site)} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+    <header class="site-header">
+      <a href="/" class="brand" aria-label="中鼎文物首頁"><span class="brand-seal" aria-hidden="true">中<br/>鼎</span><span><strong>中鼎文物</strong><small>ZHONG DING HERITAGE</small></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">選單 <span aria-hidden="true">☰</span></button>
+      <nav id="primary-nav" aria-label="主要導覽">{links.map(([href,label])=><a href={href} aria-current={path.startsWith(href)?'page':undefined}>{label}</a>)}<a class="nav-contact" href="/contact/" aria-current={path==='/contact/'?'page':undefined}>預約洽詢</a></nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="footer-top"><div><a class="footer-name" href="/">中鼎文物</a><p>從器物的細節，開啟文化與合作的對話。</p><small>{site.english}</small></div><div><span class="eyebrow">CONTACT</span><a href={'tel:'+site.tel}>{site.phone}</a><a href={'mailto:'+site.email}>{site.email}</a><span>{site.hours}・參訪請先預約</span></div><div><span class="eyebrow">EXPLORE</span><a href="/collection/">典藏選輯</a><a href="/services/#technology">資訊科技</a><a href="/services/#trade">國際貿易</a></div></div>
+      <div class="footer-bottom"><small>© {new Date().getFullYear()} {site.company}</small><small>文物藝術・資訊科技・國際貿易</small></div>
+    </footer>
+    <script>
+      const button=document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav=document.querySelector<HTMLElement>('#primary-nav');
+      function closeMenu(){button?.setAttribute('aria-expanded','false');nav?.classList.remove('is-open');}
+      button?.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));nav?.classList.toggle('is-open',open);});
+      document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
+      nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+      if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+        const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('revealed');observer.unobserve(entry.target);}}),{threshold:0.08});
+        document.querySelectorAll('[data-reveal]').forEach(el=>{el.classList.add('will-reveal');observer.observe(el);});
+      }
+    </script>
+  </body>
+</html>

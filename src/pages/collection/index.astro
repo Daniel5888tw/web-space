@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';import ArtifactCard from '../../components/ArtifactCard.astro';import all from '../../data/collection.json';
+const items=all.filter(i=>i.published);
+---
+<Layout title="文物典藏｜中鼎文物" description="依器皿與瑞獸、人物與車馬、璧飾與印章探索中鼎文物典藏選輯，閱讀造型、紋飾與圖鑑記載。">
+  <section class="page-heading dark"><span class="eyebrow gold">OBJECTS & STORIES</span><h1>文物典藏</h1><p>細看一器，讀懂一種造型；<br/>在紋飾與結構之間，尋找值得停留的細節。</p></section>
+  <section class="section gallery-section"><div class="gallery-controls"><div class="filters" role="group" aria-label="典藏分類">{['全部選輯','器皿與瑞獸','人物與車馬','璧飾與印章'].map((cat,i)=><button type="button" data-filter={i===0?'all':cat} aria-pressed={i===0?'true':'false'}>{cat}</button>)}</div><label class="search-field"><span>搜尋典藏</span><input id="collection-search" type="search" placeholder="輸入器型或紋飾" autocomplete="off" /></label></div><p id="result-count" class="result-count" aria-live="polite">顯示 {items.length} 組典藏選輯</p><div class="gallery-grid">{items.map((item,index)=><ArtifactCard item={item} index={index} />)}</div><p id="empty-results" class="empty-results" hidden>找不到符合的選輯，請調整分類或搜尋文字。</p><p class="collection-note">部分作品以圖鑑頁面呈現；品名與年代涉及原書記載者，詳見個別介紹。成套作品與多視角影像以圖組編排。</p></section>
+  <script>
+    const cards=Array.from(document.querySelectorAll<HTMLElement>('.artifact-card'));const search=document.querySelector<HTMLInputElement>('#collection-search');let category='all';
+    function filter(){const term=search?.value.trim().toLocaleLowerCase()||'';let count=0;cards.forEach(card=>{const visible=(category==='all'||card.dataset.category===category)&&(!term||card.dataset.search?.toLocaleLowerCase().includes(term));card.hidden=!visible;if(visible)count++;});const status=document.querySelector('#result-count');if(status)status.textContent=`顯示 ${count} 組典藏選輯`;const empty=document.querySelector<HTMLElement>('#empty-results');if(empty)empty.hidden=count>0;}
+    document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{category=btn.dataset.filter||'all';document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));filter();}));search?.addEventListener('input',filter);
+  </script>
+</Layout>

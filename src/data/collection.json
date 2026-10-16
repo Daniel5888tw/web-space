@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "ZD-001",
+    "name": "獸紋刀形玉石雕件",
+    "category": "刀形雕件",
+    "shape": "長條片狀、下端尖收，上端置小獸；兩側有凸齒或穿孔結構。",
+    "pattern": "一面為陰刻卷曲獸面與幾何紋，另一面高浮雕長身龍獸、卷尾與獸首。",
+    "appearance": "灰白、黃褐及局部紅褐色相間，表面具光澤。",
+    "craft": "陰刻、浮雕與透雕並用；兩張可能為正反面，需實物核對。",
+    "use": "可暫列陳設／刀形仿古雕件；不能據照片確認是否為實用兵器。",
+    "relation": "疑似同件正反面",
+    "files": [
+      "ac12.jpg",
+      "ac11.jpg"
+    ],
+    "note": "勿直接定名為玉璋、牙璋或戰國刀；先確認穿孔、刃部與尺寸。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-001",
+    "image": "/images/zd-001.webp",
+    "sourceFilename": "ac11.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-002",
+    "name": "背負人像筒形器的翼獸",
+    "category": "獸形承托器",
+    "shape": "四足翼獸，長角或冠狀突起、捲尾，背上承筒形部件與小型跪坐人像。",
+    "pattern": "軀幹卷雲紋與圓形浮雕，翼部線刻，筒形器外壁幾何紋。",
+    "appearance": "灰白至褐黃色，局部深褐斑。",
+    "craft": "圓雕、浮雕、陰刻；兩張角度相反，紋樣與配件對應。",
+    "use": "獸形承托陳設器；是否盛液、燈具或香具待確認。",
+    "relation": "同組多視角",
+    "files": [
+      "aa14.jpg",
+      "aa13.jpg"
+    ],
+    "note": "動物採翼獸暫稱，不直接判定麒麟、辟邪或天祿。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-002",
+    "image": "/images/zd-002.webp",
+    "sourceFilename": "aa14.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-003",
+    "name": "放射式獸紋圓盤",
+    "category": "璧形／盤形飾件",
+    "shape": "圓形、有中心孔，外圈局部方孔，放射狀分區。",
+    "pattern": "多組向中心排列的長條獸紋、顆粒狀凸紋與卷曲邊飾。",
+    "appearance": "灰白與褐色相間；個別方孔深色。",
+    "craft": "浮雕、陰刻與穿孔；aa27為局部細節，aa26為全貌。",
+    "use": "璧形裝飾或陳設件；原用途未明。",
+    "relation": "全貌與局部",
+    "files": [
+      "aa27.jpg",
+      "aa26.jpg"
+    ],
+    "note": "中心孔及外方孔用途需量測；不要因圓形就直接判定為禮天玉璧。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-003",
+    "image": "/images/zd-003.webp",
+    "sourceFilename": "aa26.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-004",
+    "name": "辟邪獸座觥",
+    "category": "獸形容器",
+    "shape": "張口、伸出前爪的龍獸形器，背部高起形成容器部，尾側捲曲。",
+    "pattern": "卷雲紋、點狀凸紋、浮雕龍身與爪，部分呈鏤空。",
+    "appearance": "黃褐、灰白至棕褐色，色帶與斑塊明顯。",
+    "craft": "圓雕、浮雕、透雕；照片可見前後或兩側視角。",
+    "use": "原書稱觥；是否具盛液功能、是否完整中空須實測。",
+    "relation": "原書與實拍外觀對應",
+    "files": [
+      "aa24.jpg",
+      "aa25.jpg",
+      "s16.jpg"
+    ],
+    "note": "「漢先武制」為原書題記，不能單憑題記證明漢代製作。",
+    "source": {
+      "name": "199 玉「漢先武制」辟邪獸座觥",
+      "era": "漢代（原書：公元前206年至公元220年）",
+      "dimensions": "原書：長35、寬10.7、高22 cm",
+      "owner": "蔡建新收藏（原書）",
+      "inscription": "原書附「漢先武制」印記圖；字形與釋文未獨立驗證。",
+      "page": "220"
+    },
+    "slug": "zd-004",
+    "image": "/images/zd-004.webp",
+    "sourceFilename": "aa25.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-005",
+    "name": "獸拉車與人物儀仗組（去背圖組）",
+    "category": "車馬人物組件",
+    "shape": "有頂篷的輪式車廂、牽引獸、坐姿人物及多件站立人像。",
+    "pattern": "車蓋卷雲與幾何紋、車廂鏤空欄板、人物衣甲刻線，車底見方形文字。",
+    "appearance": "灰白、黃褐與紅褐色相間；多張透明背景PNG。",
+    "craft": "圓雕、鏤空、陰刻；車蓋、人物、車輪等分件構成。",
+    "use": "模型式陳設／儀仗群組；是否隨葬或宮廷用途無證據。",
+    "relation": "同組全景與細節；與53件組關係待確認",
+    "files": [
+      "IMG_3482.png",
+      "IMG_3591.png",
+      "IMG_3491.png",
+      "IMG_3538.png",
+      "IMG_3485_clipped_rev_1.png",
+      "IMG_3483.png"
+    ],
+    "note": "可能屬53件車馬大組的一部分，尚未建立確定配件關係；不重複推算實物數。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "IMG_3485圖見車底方形文字，尚未可靠釋讀。",
+      "page": "未提供"
+    },
+    "slug": "zd-005",
+    "image": "/images/zd-005.webp",
+    "sourceFilename": "IMG_3482.png",
+    "section": "人物與車馬",
+    "published": true
+  },
+  {
+    "id": "ZD-006",
+    "name": "龍獸承杯器",
+    "category": "獸形承杯器",
+    "shape": "蹲伏龍獸以曲頸承托圓腹杯／缽狀上部，杯有獸首附件，上方另置小獸。",
+    "pattern": "杯腹規整卷曲凸紋、獸肩大卷紋、尾部渦卷。",
+    "appearance": "青灰、淡黃與褐色斑塊相間。",
+    "craft": "圓雕、浮雕、透雕；IMG_7760為拆件狀態，可見獸座與上部容器。",
+    "use": "承杯／承缽陳設器；杯、蓋及底座是否原配需核對。",
+    "relation": "同組多視角與拆件",
+    "files": [
+      "IMG_7760.png",
+      "IMG_7771尺寸195X188X123.png",
+      "IMG_7782.png"
+    ],
+    "note": "尺寸僅轉錄檔名，不自動換算為公分。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "檔名：195×188×123，單位與長寬高順序未註明",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-006",
+    "image": "/images/zd-006.webp",
+    "sourceFilename": "IMG_7771尺寸195X188X123.png",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-007",
+    "name": "鳥首蓋執壺一對",
+    "category": "壺形器",
+    "shape": "兩件高頸、鼓腹、圈足執壺，鳥喙形蓋，側面曲柄與獸首連接。",
+    "pattern": "蓋上冠羽與卷紋，腹部方格／凸點紋，下腹垂瓣紋，足部見方形文字。",
+    "appearance": "灰白、灰青與赭褐色。",
+    "craft": "圓雕、浮雕、陰刻；全景及單件去背、底足文字細節齊全。",
+    "use": "執壺式容器／陳設器；流口與內膛是否連通待確認。",
+    "relation": "一對器物，非6件",
+    "files": [
+      "選A5尺寸250X158X93.JPG",
+      "選A6尺寸250X158X93.JPG",
+      "選A6-1_clipped_rev_1.png",
+      "選A6-2_clipped_rev_1.png",
+      "選A5左_clipped_rev_1.png",
+      "選A5右_clipped_rev_2.png"
+    ],
+    "note": "暫按一對建檔，仍須確認兩件尺寸是否相同。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "檔名：250×158×93，單位與順序未註明",
+      "owner": "未提供",
+      "inscription": "兩件足部均見篆體樣文字；尚未確定完整釋文。",
+      "page": "未提供"
+    },
+    "slug": "zd-007",
+    "image": "/images/zd-007.webp",
+    "sourceFilename": "選A6-1_clipped_rev_1.png",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-008",
+    "name": "獸面紋提梁壺一對（卣形待核）",
+    "category": "提梁容器",
+    "shape": "兩件有蓋鼓腹容器，拱形提梁、獸首銜環耳、圈足，置方形臺座。",
+    "pattern": "腹部獸面與卷曲紋，提梁刻槽，肩部帶狀文字或紋樣，底部有方形文字。",
+    "appearance": "灰青、黃褐與赭色相間。",
+    "craft": "浮雕、陰刻、穿孔及提梁結構；兩張合照、兩單件與底部細節。",
+    "use": "提梁壺／仿卣形陳設器；不據外形認定古代酒器實際用途。",
+    "relation": "一對器物，非6件",
+    "files": [
+      "選A3尺寸215X128X97.JPG",
+      "選A4尺寸215X128X97.JPG",
+      "選A4-2_clipped_rev_1.png",
+      "選A4-1_clipped_rev_1.png",
+      "選A3左_clipped_rev_1.png",
+      "選A3右_clipped_rev_1.png"
+    ],
+    "note": "『卣』僅器型比較，具體名稱由原始目錄確認。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "檔名：215×128×97，單位與順序未註明",
+      "owner": "未提供",
+      "inscription": "底部方形篆體樣刻字，部分似「南郡侯印」；需原圖與實物核字。",
+      "page": "未提供"
+    },
+    "slug": "zd-008",
+    "image": "/images/zd-008.webp",
+    "sourceFilename": "選A4-1_clipped_rev_1.png",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-009",
+    "name": "車馬人物儀仗大型組（檔名53件）",
+    "category": "組合陳設",
+    "shape": "全景有多輛帶頂蓋車、人物與馬／獸；細節含坐姿人物、馬、輪軸、雙獸首與帶獸鈕頂蓋。",
+    "pattern": "車壁及蓋緣卷曲透雕、獸面浮雕、衣甲刻線、鏈環附件。",
+    "appearance": "灰白、青灰、赭褐與局部紅色。",
+    "craft": "大型分件組合，圓雕、浮雕、透雕與鏈環。",
+    "use": "車馬儀仗群組式陳設；具體儀式或隨葬意義待來源證據。",
+    "relation": "53件來源標示，配件對應待核",
+    "files": [
+      "A80   長850x高307x寬800  53件.JPG",
+      "s11_clipped_rev_1.png",
+      "s15_clipped_rev_1.png",
+      "s13_clipped_rev_1.png",
+      "s18_clipped_rev_1.png",
+      "s19_clipped_rev_1.png",
+      "未命名 - 2_clipped_rev_1.png"
+    ],
+    "note": "53件為檔名記載，未逐件清點。細節暫列相關圖組，需確認每張對應哪輛車。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "檔名：長850×高307×寬800；單位未註明",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-009",
+    "image": "/images/zd-009.webp",
+    "sourceFilename": "A80   長850x高307x寬800  53件.JPG",
+    "section": "人物與車馬",
+    "published": true
+  },
+  {
+    "id": "ZD-010",
+    "name": "天子四駕馬車",
+    "category": "車馬人物組件",
+    "shape": "紅褐色有蓋輪車與多匹馬、侍從，合照可見四匹馬；圖鑑s11僅呈兩馬角度。",
+    "pattern": "車蓋陰刻紋，車廂文字、車輪輻條，馬身卷紋，鏈環連接。",
+    "appearance": "紅褐與綠灰色斑塊顯著；照片用深色背景。",
+    "craft": "圓雕、刻線、組合與鏈環；局部顯示車內坐姿人物與車頂小像。",
+    "use": "原書稱四駕馬車；天子身分與歷史用途屬原書解讀。",
+    "relation": "圖鑑與實拍對應；四馬/兩馬構圖不同",
+    "files": [
+      "aa30.jpg",
+      "aa28.jpg",
+      "aa29.jpg",
+      "aa31.jpg",
+      "s11.jpg",
+      "s12.jpg"
+    ],
+    "note": "s12另附青銅器參照圖，不是本組新增藏品；原書年代寫法需核實。",
+    "source": {
+      "name": "209 玉銘文天子四駕馬車",
+      "era": "春秋時期（原書：不詳至公元前560年）",
+      "dimensions": "原書：長54.2、寬18.2、高19.3 cm",
+      "owner": "原書收藏者姓名辨讀不足，待高清圖確認",
+      "inscription": "原書附銘文與拓片；本表不將原書銘文論述視為已鑑證。",
+      "page": "238–239"
+    },
+    "slug": "zd-010",
+    "image": "/images/zd-010.webp",
+    "sourceFilename": "aa28.jpg",
+    "section": "人物與車馬",
+    "published": true
+  },
+  {
+    "id": "ZD-011",
+    "name": "人面紋方鼎組",
+    "category": "鼎形器組",
+    "shape": "多件方形腹、柱足、直立方耳或蓋鈕的鼎形雕件；有正面與側面合成圖。",
+    "pattern": "腹部人面浮雕、側面卷曲獸紋。",
+    "appearance": "棕黃、紅褐至灰白色。",
+    "craft": "圓雕與高浮雕，多件大小或紋面略有差別。",
+    "use": "鼎形陳設組；不確認為商周禮器或出土套組。",
+    "relation": "多件群組；實物總數待清點",
+    "files": [
+      "20140606-047.JPG",
+      "aa32.jpg",
+      "20140606-049.JPG",
+      "aa322.jpg"
+    ],
+    "note": "合照視角與單件照片可能重複；實物件數與蓋件需逐件編號。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-011",
+    "image": "/images/zd-011.webp",
+    "sourceFilename": "aa322.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-012",
+    "name": "雙獸首鏤空長方槽形器",
+    "category": "槽形雕件",
+    "shape": "長方形槽體，兩端高起獸首，中部開口。",
+    "pattern": "側壁透雕長身龍獸，邊框幾何紋與卷曲紋。",
+    "appearance": "灰白至黃褐、局部赭紅。",
+    "craft": "浮雕、透雕、陰刻，兩張為不同角度。",
+    "use": "槽形陳設或承托器；用途待確認。",
+    "relation": "同件多視角",
+    "files": [
+      "aa12.jpg",
+      "aa11.jpg"
+    ],
+    "note": "勿直接定名香爐、筆洗或枕，需量測與底部照片。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-012",
+    "image": "/images/zd-012.webp",
+    "sourceFilename": "aa11.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-013",
+    "name": "雙獸首銜環蓋鼎形器",
+    "category": "有蓋容器",
+    "shape": "球形鼓腹、上有獸鈕蓋及套疊式頂飾，兩側獸首銜環，承托於雕花底座。",
+    "pattern": "腹部密集線刻卷曲紋，蓋及耳部鏤空獸紋，足座獸面。",
+    "appearance": "棕褐、赭紅與淡黃白色。",
+    "craft": "圓雕、浮雕、透雕、活環或環形附件；實物環是否活動待驗。",
+    "use": "有蓋陳設容器；是否香具或盛液器未明。",
+    "relation": "同件多視角",
+    "files": [
+      "20140606-001.JPG",
+      "aa15.jpg"
+    ],
+    "note": "同件外觀高度對應，但尺寸與組裝關係待資料確認。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-013",
+    "image": "/images/zd-013.webp",
+    "sourceFilename": "aa15.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-014",
+    "name": "仙人爵獸捧璧座匜",
+    "category": "人物獸形組合器",
+    "shape": "長條底座上由獸形容器、跪姿／坐姿人像與圓璧組合，一側獸背承杯，一側人物捧璧。",
+    "pattern": "卷雲與龍獸刻線、局部綠色點狀嵌飾外觀、人物髮飾與幾何邊框。",
+    "appearance": "灰白、淡黃褐，局部赭色與綠色點。",
+    "craft": "圓雕、透雕與陰刻；是否錯金銀與嵌寶需檢測。",
+    "use": "原書稱匜；僅憑照片未確認倒水結構及實際用途。",
+    "relation": "原書與實拍外觀對應",
+    "files": [
+      "aa18.jpg",
+      "aa19.jpg",
+      "s19.jpg",
+      "s22.jpg"
+    ],
+    "note": "原書『漢代至221年』與通常紀年有差異，此處不替原書更改；銀絲與寶石種類未驗證。",
+    "source": {
+      "name": "024 玉嵌銀絲鑲寶 仙人爵獸捧璧座匜",
+      "era": "漢代（原書：公元前206年至公元221年，終年照錄）",
+      "dimensions": "原書：長25.5、寬4.5、高10.2 cm",
+      "owner": "中鼎文物收藏（原書）",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "11（章節論述）、23（藏品頁）"
+    },
+    "slug": "zd-014",
+    "image": "/images/zd-014.webp",
+    "sourceFilename": "aa18.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-015",
+    "name": "龍獸座杯",
+    "category": "獸形承杯器",
+    "shape": "長條底座承龍獸，張口獸首、卷曲身體與尾端，背部有杯狀上口。",
+    "pattern": "獸身卷紋、腿部渦卷與杯腹幾何紋，兩側鏤空卷曲附件。",
+    "appearance": "灰白、黃褐與局部紅褐。",
+    "craft": "圓雕、浮雕與透雕。",
+    "use": "獸形杯／承杯陳設；杯內腔及用途待確認。",
+    "relation": "同件多視角",
+    "files": [
+      "aa23.jpg",
+      "aa22.jpg"
+    ],
+    "note": "與仙人捧璧組相似但沒有同樣人物、璧與配置，暫分開建檔。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-015",
+    "image": "/images/zd-015.webp",
+    "sourceFilename": "aa23.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-016",
+    "name": "獸形有蓋容器",
+    "category": "獸形容器",
+    "shape": "四足、張口、卷尾的獸形器，背上鬃毛狀凸飾，腹部有明顯分蓋接縫。",
+    "pattern": "鬃毛刻槽、獸面浮雕、身體卷紋，底部方形印記。",
+    "appearance": "灰白、粉褐及深褐斑。",
+    "craft": "上下分件，蓋為獸首與背部，器身為碗狀腹與四足；照片明示拆件。",
+    "use": "帶蓋容器／陳設器；是否香爐須確認通氣孔與使用痕。",
+    "relation": "同件多視角、拆件及底部",
+    "files": [
+      "20140606-017.JPG",
+      "20140606-019.JPG",
+      "20140606-018-2 (1).JPG",
+      "20140606-016尺寸212X188X115_clipped_rev_1.png",
+      "20140606-020.JPG",
+      "20140606-018.jpg"
+    ],
+    "note": "不同照片外觀高度對應；無證據據此認定漢代或獅形。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "檔名：212×188×115，單位與順序未註明",
+      "owner": "未提供",
+      "inscription": "20140606-018.jpg顯示底部篆體樣印記，未可靠釋讀。",
+      "page": "未提供"
+    },
+    "slug": "zd-016",
+    "image": "/images/zd-016.webp",
+    "sourceFilename": "20140606-017.JPG",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-017",
+    "name": "龍獸鈕方印",
+    "category": "印章",
+    "shape": "方形厚印臺，上置盤曲龍獸，印面呈大字線條。",
+    "pattern": "鈕部圓雕龍獸與卷尾，印面篆體樣文字。",
+    "appearance": "印臺黃褐與灰白相間，鈕部淡青灰、赭色。",
+    "craft": "圓雕印鈕與刻字，三張鈕部角度及一張印面。",
+    "use": "印章或印章式陳設；印文內容與使用身分待核。",
+    "relation": "同件多視角及印面",
+    "files": [
+      "aa124.jpg",
+      "aa123.jpg",
+      "aa126.jpg",
+      "aa125.jpg"
+    ],
+    "note": "不得僅憑尺寸與龍鈕認定帝王玉璽。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "aa124印面大字可見，但未取得拓印，不作完整釋文。",
+      "page": "未提供"
+    },
+    "slug": "zd-017",
+    "image": "/images/zd-017.webp",
+    "sourceFilename": "aa123.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-018",
+    "name": "四件跪姿人物雕件",
+    "category": "人物雕件組",
+    "shape": "四件小型人物並列，跪坐於帶刻線底座，雙手在胸前承托附件。",
+    "pattern": "冠髮、袍服與底座刻線，面貌與上部附件各有差異。",
+    "appearance": "淡黃白與褐色。",
+    "craft": "圓雕與陰刻，两張為不同視角。",
+    "use": "人物陳設組／配件；所持物不清晰，先不稱燈或樂器。",
+    "relation": "四件一組，非兩張各四件",
+    "files": [
+      "aa20.jpg",
+      "aa21.jpg"
+    ],
+    "note": "與圖鑑『羽仙人提燈』一對形制不同，暫不合併。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-018",
+    "image": "/images/zd-018.webp",
+    "sourceFilename": "aa20.jpg",
+    "section": "人物與車馬",
+    "published": true
+  },
+  {
+    "id": "ZD-019",
+    "name": "龍獸承托有蓋壺",
+    "category": "獸形承托容器",
+    "shape": "四足龍獸承長頸壺形上部，壺有蓋與獸形鈕，壺腹兩側獸首與長耳狀附件。",
+    "pattern": "獸身渦卷浮雕、腹部卷紋，上部獸面與鏤空。",
+    "appearance": "淡黃白、灰青與棕褐。",
+    "craft": "圓雕、透雕與可拆上部；aa43為分件陳列。",
+    "use": "獸座壺形陳設；內膛、液路或香具結構待確認。",
+    "relation": "同件多視角與拆件",
+    "files": [
+      "aa43.jpg",
+      "aa41.jpg",
+      "aa42.jpg"
+    ],
+    "note": "與IMG_7771龍獸承杯器外形相近，但上部、腿足與紋飾不同，暫分兩組。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-019",
+    "image": "/images/zd-019.webp",
+    "sourceFilename": "aa41.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-020",
+    "name": "翼獸背負卷羽形器",
+    "category": "獸形承托器",
+    "shape": "坐姿張口翼獸，背後高聳卷羽或角形構件，有尖收邊緣及捲曲端部。",
+    "pattern": "背部密集縱向刻槽、翼部卷曲與陰刻線。",
+    "appearance": "淡青灰、淡黃白、局部赭色。",
+    "craft": "圓雕與刻槽，正面與背面視角。",
+    "use": "獸形角杯／承托器候選；是否中空及能盛液待驗。",
+    "relation": "同件正背視角",
+    "files": [
+      "aa38.jpg",
+      "aa37.jpg"
+    ],
+    "note": "不直接稱為角杯或觥，先確認內腔。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-020",
+    "image": "/images/zd-020.webp",
+    "sourceFilename": "aa37.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-021",
+    "name": "鳥獸形承筒器",
+    "category": "動物形容器",
+    "shape": "鳥喙樣頭、四足兽體、長頸帶刻槽，背部有筒形上口與獸鈕蓋，尾部多卷。",
+    "pattern": "腹部圓形卷紋、肩部浮雕，頸部縱刻線。",
+    "appearance": "灰白、黃褐與深褐。",
+    "craft": "圓雕、浮雕與分件蓋；aa39呈拆件，aa40為組裝。",
+    "use": "動物形容器／陳設器；動物種類與原用途待確認。",
+    "relation": "組裝與拆件，暫同組",
+    "files": [
+      "aa40.jpg",
+      "aa39.jpg"
+    ],
+    "note": "不直接判定鳳鳥或麒麟；需核對是否為同件及蓋是否原配。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-021",
+    "image": "/images/zd-021.webp",
+    "sourceFilename": "aa40.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-022",
+    "name": "人首獸身承盤器",
+    "category": "複合造型承盤器",
+    "shape": "四足獸身配人面或人首，頂部直頸承淺盤，背後附小型攀附人／獸形構件。",
+    "pattern": "軀幹卷紋、前胸刻線、耳側環形飾。",
+    "appearance": "淡黃白、粉赭與局部青灰。",
+    "craft": "圓雕、浮雕與環形附件，正反兩側視角。",
+    "use": "承盤／燈具候選；是否用以承燭、燃油或陳設未確認。",
+    "relation": "同件兩側視角",
+    "files": [
+      "aa36.jpg",
+      "aa35.jpg"
+    ],
+    "note": "人首獸身為可觀察描述，不直接附會宗教神祇。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-022",
+    "image": "/images/zd-022.webp",
+    "sourceFilename": "aa36.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-023",
+    "name": "出廓文字獸紋璧形飾件",
+    "category": "璧形飾件",
+    "shape": "下部圓形孔璧，上部出廓對稱獸紋與豎向文字。",
+    "pattern": "璧面凸點、中心鏤空卷獸，上端文字貌似『宜子孫』，左右龍獸纏绕。",
+    "appearance": "灰褐、青灰與淡黃斑。",
+    "craft": "透雕、浮雕與刻字；兩面或不同光線視角。",
+    "use": "祝頌性璧形飾件候選；懸掛與實際用途待穿孔確認。",
+    "relation": "疑似同件兩面",
+    "files": [
+      "AC20.jpg",
+      "AC19.jpg"
+    ],
+    "note": "不可據宜子孫題材直接定為漢代。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "疑似『宜子孫』，僅圖像初讀，未由拓片證實。",
+      "page": "未提供"
+    },
+    "slug": "zd-023",
+    "image": "/images/zd-023.webp",
+    "sourceFilename": "AC20.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-024",
+    "name": "獸形跪坐雕件",
+    "category": "獸形雕件",
+    "shape": "直立上身、彎曲後肢、開口獸首，大型前肢或耳狀卷曲部件；後側長條文字。",
+    "pattern": "鬃毛／脊背刻槽、胸腹刻線與背後文字。",
+    "appearance": "黃白、灰白與棕褐色。",
+    "craft": "圓雕與陰刻，正背視角。",
+    "use": "獸形陳設／器座候選，實際用途待確認。",
+    "relation": "同件正背視角",
+    "files": [
+      "AC18.jpg",
+      "AC17.jpg"
+    ],
+    "note": "不直接識別為熊、辟邪或瑞獸某特定品種。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "AC18背部有長條篆體樣文字，尚未完整釋讀。",
+      "page": "未提供"
+    },
+    "slug": "zd-024",
+    "image": "/images/zd-024.webp",
+    "sourceFilename": "AC17.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-025",
+    "name": "獸首銜環爵形器",
+    "category": "爵形器",
+    "shape": "三足或長足式杯形上體，前伸流、尾端尖收，上有菌狀柱，兩側獸首銜環。",
+    "pattern": "杯腹卷曲幾何紋、側面浮雕獸首與卷紋。",
+    "appearance": "灰白、黃褐及紅褐。",
+    "craft": "圓雕、浮雕與環形附件。",
+    "use": "仿爵形陳設器；實際材質與盛酒用途未驗。",
+    "relation": "同件兩側視角",
+    "files": [
+      "AC15.jpg",
+      "AC16.jpg"
+    ],
+    "note": "足數與背側構造需實物確認，不因爵形即定商周年代。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-025",
+    "image": "/images/zd-025.webp",
+    "sourceFilename": "AC15.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-026",
+    "name": "群獸鏤雕璧形厚雕件",
+    "category": "圓形雕件",
+    "shape": "厚圓盤一面較平整有中心孔，另一面群獸交纏並圍繞孔洞。",
+    "pattern": "多組高浮雕獸首、足爪與長身卷獸，局部透雕。",
+    "appearance": "深灰褐、黃褐與較深色斑。",
+    "craft": "高浮雕、透雕與磨平背面；兩張可見前後結構。",
+    "use": "厚璧式陳設件／器件；有無承托或佩掛用途待查。",
+    "relation": "同件正背視角",
+    "files": [
+      "aC13.jpg",
+      "AC14.jpg"
+    ],
+    "note": "盤體厚度與孔徑未量測，暫不稱玉琮或玉印。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-026",
+    "image": "/images/zd-026.webp",
+    "sourceFilename": "AC14.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-027",
+    "name": "圓腹坐姿獸形雕件",
+    "category": "獸形雕件",
+    "shape": "坐姿、圓腹、張口獸首，前肢上舉，大耳或長形附肢，後側渦卷。",
+    "pattern": "腹部簡約光面、肩背卷紋、肢體刻線。",
+    "appearance": "白黃、青灰與赭褐斑。",
+    "craft": "圓雕、浮雕，正背或側面對應。",
+    "use": "獸形陳設；是否器座未明。",
+    "relation": "同件兩面",
+    "files": [
+      "aa16.jpg",
+      "aa17.jpg"
+    ],
+    "note": "與AC17獸形雕件外觀不同，分開建檔。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-027",
+    "image": "/images/zd-027.webp",
+    "sourceFilename": "aa16.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-028",
+    "name": "五神獸鈕玉璽組",
+    "category": "印章組",
+    "shape": "多件方印、獸鈕，合照可見兽形鈕與厚印臺，下方示印面文字。",
+    "pattern": "獸鈕圓雕、印臺側面獸面浮雕、篆體樣印文。",
+    "appearance": "青灰、黃褐與深褐。",
+    "craft": "圓雕、浮雕與刻印；原書品名為五神獸，但需逐件確認數量與配置。",
+    "use": "印章組；『南郡侯印』與五神獸身分為原書記載。",
+    "relation": "圖鑑同組，組件數待確認",
+    "files": [
+      "s13.jpg",
+      "s14.jpg"
+    ],
+    "note": "不能因印文推斷持有人身分、出土地或年代。",
+    "source": {
+      "name": "026「南郡侯印」五神獸鈕玉璽組",
+      "era": "原書年代行辨讀不足，待較高清文字頁確認",
+      "dimensions": "原書：長20、寬16.3、高15.1 cm（整組或單件未明）",
+      "owner": "蔡建新收藏（原書）",
+      "inscription": "原書附『南郡侯印』釋文與印面圖；尚未獨立核字。",
+      "page": "26–27"
+    },
+    "slug": "zd-028",
+    "image": "/images/zd-028.webp",
+    "sourceFilename": "s14.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-029",
+    "name": "鏤空龍紋神人大璧",
+    "category": "璧形飾件",
+    "shape": "大圓璧上方連小圓环，中央正面人物，兩側小圓环，外圈多獸形鏤空。",
+    "pattern": "龍獸、卷雲紋、正面神人式人像，環上見亮色線狀飾。",
+    "appearance": "黃褐、灰白與銀白／金色線條外觀。",
+    "craft": "透雕、浮雕與線狀嵌飾外觀；是否銀絲錯金需檢測。",
+    "use": "原書稱大璧；神人與工藝技法屬原書解讀。",
+    "relation": "單張圖鑑",
+    "files": [
+      "s15.jpg"
+    ],
+    "note": "上方小圓與側圓不是額外三件璧，暫按完整一件組合物。",
+    "source": {
+      "name": "095 …鏤空雕龍紋神人大璧（前段工藝術語待高清圖核字）",
+      "era": "漢代（原書：公元前206年至公元220年）",
+      "dimensions": "原書：長15.2、高27 cm；寬未載",
+      "owner": "何立德收藏（原書）",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "116"
+    },
+    "slug": "zd-029",
+    "image": "/images/zd-029.webp",
+    "sourceFilename": "s15.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-030",
+    "name": "高浮雕螭龍三連琮",
+    "category": "聯體雕件",
+    "shape": "三個相連圓筒／圈狀部件，中間較高，頂端有卷龍、獸首及鏤空。",
+    "pattern": "頂部多重盤曲龍紋與凸起獸首，筒壁較光。",
+    "appearance": "紅褐、灰白與淡青綠斑。",
+    "craft": "高浮雕、透雕，前方全景與側面小圖。",
+    "use": "原書稱三連琮；圓筒結構與傳統琮型需另行比較。",
+    "relation": "單張圖鑑",
+    "files": [
+      "s17.jpg"
+    ],
+    "note": "器名照錄原書，不表示已確認為禮地玉琮。",
+    "source": {
+      "name": "069 玉高浮雕螭龍三連琮",
+      "era": "漢代（原書：公元前206年至公元220年）",
+      "dimensions": "原書：長22、寬7.3、高14.2 cm",
+      "owner": "蔡建新收藏（原書）",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "89"
+    },
+    "slug": "zd-030",
+    "image": "/images/zd-030.webp",
+    "sourceFilename": "s17.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-031",
+    "name": "鏤雕皇後鳳冠",
+    "category": "冠形雕件",
+    "shape": "半圓拱背與弧形底座，上置鳳鳥，背板呈羽翅鏤空。",
+    "pattern": "鳳鳥長翼、卷雲、龍獸式鏤空紋，底緣瓣狀紋。",
+    "appearance": "乳白、黃褐與紅褐。",
+    "craft": "透雕、高浮雕與圓雕。",
+    "use": "原書稱皇後鳳冠；佩戴方式、歷史使用者與功能待證。",
+    "relation": "單張圖鑑",
+    "files": [
+      "s18.jpg"
+    ],
+    "note": "不得直接宣稱為某皇後御用冠；需來源與佩戴結構證據。",
+    "source": {
+      "name": "010 玉鏤雕皇後鳳冠",
+      "era": "漢代（原書：公元前206年至公元220年）",
+      "dimensions": "原書：長11.3、寬11、高14.1 cm",
+      "owner": "蔡建新收藏（原書）",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "8"
+    },
+    "slug": "zd-031",
+    "image": "/images/zd-031.webp",
+    "sourceFilename": "s18.jpg",
+    "section": "器皿與瑞獸",
+    "published": true
+  },
+  {
+    "id": "ZD-032",
+    "name": "羽仙人提燈一對",
+    "category": "人物承燈器",
+    "shape": "兩件相向跪坐人物，雙手托筒形有頂燈罩，肩背有翼形構件。",
+    "pattern": "人物冠髮、翼與衣褶刻線，燈罩弧形開口。",
+    "appearance": "灰青、黃褐與白色斑。",
+    "craft": "圓雕、陰刻與鏤空；頁面附背面圖。",
+    "use": "原書稱提燈，是否可燃燈以及使用痕跡未確認。",
+    "relation": "一對人物，非圖中四件",
+    "files": [
+      "s20.jpg"
+    ],
+    "note": "原書『仙人』為題名，不據圖像確定宗教身份。",
+    "source": {
+      "name": "118 玉羽仙人提燈",
+      "era": "戰國（原書：公元前403年至公元前221年）",
+      "dimensions": "原書：左長8.8、寬5.5、高15.7 cm；右長9.2、寬5.6、高15.9 cm",
+      "owner": "中鼎文物收藏（原書）",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "135"
+    },
+    "slug": "zd-032",
+    "image": "/images/zd-032.webp",
+    "sourceFilename": "s20.jpg",
+    "section": "人物與車馬",
+    "published": true
+  },
+  {
+    "id": "ZD-033",
+    "name": "龍首雙連璜",
+    "category": "弧形飾件",
+    "shape": "兩條相連弧形條，兩端龍首，中央與弧背盤曲獸體，整體拱形。",
+    "pattern": "龍首、卷雲、渦卷與顆粒狀密集紋，鏤空穿隙。",
+    "appearance": "灰白、淡黃與褐色斑。",
+    "craft": "透雕、浮雕、刻線，正背面圖。",
+    "use": "璜式佩飾候選；組佩、懸掛與孔位需核對。",
+    "relation": "單張圖鑑正背面",
+    "files": [
+      "s21.jpg"
+    ],
+    "note": "年代為原書歸屬，未經本次影像辨識證實。",
+    "source": {
+      "name": "071 玉龍首雙連璜",
+      "era": "漢代（原書：公元前206年至公元220年）",
+      "dimensions": "原書：長30.2、寬3.5、高9.5 cm",
+      "owner": "中鼎文物收藏（原書）",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "91"
+    },
+    "slug": "zd-033",
+    "image": "/images/zd-033.webp",
+    "sourceFilename": "s21.jpg",
+    "section": "璧飾與印章",
+    "published": true
+  },
+  {
+    "id": "ZD-034",
+    "name": "封面鏤雕獸形陳設（未編目）",
+    "category": "封面藏品影像",
+    "shape": "四足、短尾上卷、張口兽首，軀幹較長，胸前似有垂挂。",
+    "pattern": "軀幹密集鏤雕卷曲獸紋與小孔。",
+    "appearance": "黃褐、深棕與灰白。",
+    "craft": "圓雕、透雕與浮雕；僅書封照片，細節有限。",
+    "use": "獸形陳設；器物正式品名、尺寸與圖鑑編號未提供。",
+    "relation": "同一封面不同版本",
+    "files": [
+      "getImage.webp",
+      "BOOK.jpg"
+    ],
+    "note": "BOOK及getImage是同封面不同檔案，不計兩件藏品；封面未證明中鼎所有權。",
+    "source": {
+      "name": "未附正式藏品文字頁",
+      "era": "未提供，不推定",
+      "dimensions": "未提供",
+      "owner": "未提供",
+      "inscription": "未見可可靠釋讀文字",
+      "page": "未提供"
+    },
+    "slug": "zd-034",
+    "image": "/images/zd-034.webp",
+    "sourceFilename": "BOOK.jpg",
+    "section": "器皿與瑞獸",
+    "published": false
+  }
+]

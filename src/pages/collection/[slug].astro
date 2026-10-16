@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';import all from '../../data/collection.json';
+export function getStaticPaths(){return all.filter(i=>i.published).map(item=>({params:{slug:item.slug},props:{item}}));}
+const {item}=Astro.props;const items=all.filter(i=>i.published);const position=items.findIndex(i=>i.slug===item.slug);const next=items[(position+1)%items.length];
+const hasBook=item.source.page!=='未提供';
+---
+<Layout title={item.name+'｜中鼎文物典藏'} description={item.shape}>
+  <section class="detail-section"><div class="detail-art dark"><a class="back-link" href="/collection/">返回典藏選輯</a><button class="zoom-image" aria-label={'放大查看'+item.name}><img src={item.image} alt={item.name} width="1600" height="1600" /><span>放大欣賞</span></button></div><div class="detail-copy"><span class="eyebrow">{item.section} / {item.id}</span><h1>{item.name}</h1><p class="lead">{item.shape}</p><dl class="detail-facts"><div><dt>器型</dt><dd>{item.category}</dd></div><div><dt>紋飾</dt><dd>{item.pattern}</dd></div><div><dt>色澤</dt><dd>{item.appearance}</dd></div><div><dt>結構</dt><dd>{item.craft}</dd></div></dl>{hasBook&&<div class="book-attribution"><span class="eyebrow">圖鑑記載</span><p>{item.source.name}</p><p>{item.source.dimensions}</p><small>《中國高古帝陵玉器珍寶》，頁 {item.source.page}；尺寸依原書標示。</small><details><summary>查看原書年代及收藏標示</summary><p>{item.source.era}</p><p>{item.source.owner}</p><p>以上為原書歸屬與標示，未經本次影像整理獨立驗證。</p></details></div>}<p class="detail-context">介紹以影像觀察與提供的圖鑑為基礎；正式品名、材質與年代，請於洽詢時確認。</p><a class="button dark-button" href={'/contact/?item='+encodeURIComponent(item.name)}>洽詢這組作品</a></div></section>
+  <section class="section next-object"><span class="eyebrow">CONTINUE EXPLORING</span><h2>下一組典藏</h2><a href={'/collection/'+next.slug+'/'}>{next.name}</a></section>
+  <dialog class="image-dialog" aria-label="藏品大圖"><button class="dialog-close" autofocus>關閉大圖</button><img src={item.image} alt={item.name+'放大圖'} width="1800" height="1800" /></dialog>
+  <script>
+    const dialog=document.querySelector<HTMLDialogElement>('.image-dialog');document.querySelector('.zoom-image')?.addEventListener('click',()=>dialog?.showModal());document.querySelector('.dialog-close')?.addEventListener('click',()=>dialog?.close());dialog?.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+  </script>
+</Layout>

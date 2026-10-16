@@ -1,0 +1,7 @@
+---
+const { item, index = 0 } = Astro.props;
+---
+<article class="artifact-card" data-category={item.section} data-search={item.name+' '+item.category+' '+item.pattern}>
+  <a href={'/collection/'+item.slug+'/'} class="artifact-image"><img src={item.image} alt={item.name} width="900" height="1000" loading="lazy" decoding="async" /><span class="artifact-index">{String(index+1).padStart(2,'0')}</span><span class="artifact-explore">觀賞細節</span></a>
+  <div class="artifact-caption"><span class="eyebrow">{item.section}</span><h3><a href={'/collection/'+item.slug+'/'}>{item.name}</a></h3><p>{item.category}</p></div>
+</article>

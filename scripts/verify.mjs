@@ -1,0 +1,8 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve('dist');
+async function walk(dir){const out=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())out.push(...await walk(p));else out.push(p);}return out;}
+const files=await walk(root);const htmlFiles=files.filter(f=>f.endsWith('.html'));let links=0,images=0;const errors=[];
+for(const file of htmlFiles){const html=await fs.readFile(file,'utf8');if(!html.includes('lang="zh-Hant"'))errors.push(file+': language missing');if(!/<title>[^<]+<\/title>/.test(html))errors.push(file+': title missing');if(/undefined|TODO|placehold\.co|sdmntpr|download_url|drive\.google\.com/.test(html))errors.push(file+': placeholder or private source leaked');for(const m of html.matchAll(/(?:href|src)="(\/[^"#?]*)(?:[?#][^"]*)?"/g)){const uri=m[1];const dest=path.join(root,decodeURIComponent(uri));const candidates=uri.endsWith('/')?[path.join(dest,'index.html')]:[dest,path.join(dest,'index.html')];let found=false;for(const p of candidates){try{if((await fs.stat(p)).isFile())found=true;}catch{}}if(!found)errors.push(path.relative(root,file)+': missing '+uri);links++;}for(const tag of html.matchAll(/<img\b[^>]*>/g)){if(!/\balt="[^"]+"/.test(tag[0]))errors.push(file+': image alt missing');images++;}}
+const detail=htmlFiles.filter(f=>/collection\/zd-\d+\/index\.html$/.test(f));if(detail.length!==33)errors.push('Expected 33 detail routes; got '+detail.length);
+if(errors.length){console.error(errors.join('\n'));process.exit(1);}console.log(`Verified ${htmlFiles.length} pages, ${detail.length} collection routes, ${links} local references and ${images} image descriptions.`);
