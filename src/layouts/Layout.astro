@@ -27,6 +27,7 @@ const links = [['/collection/','文物典藏'],['/services/','專業服務'],['/
     <footer class="site-footer">
       <div class="footer-top"><div><a class="footer-name" href="/">中鼎文物</a><p>從器物的細節，開啟文化與合作的對話。</p><small>{site.english}</small></div><div><span class="eyebrow">CONTACT</span><a href={'tel:'+site.tel}>{site.phone}</a><a href={'mailto:'+site.email}>{site.email}</a><span>{site.hours}・參訪請先預約</span></div><div><span class="eyebrow">EXPLORE</span><a href="/collection/">典藏選輯</a><a href="/services/#technology">資訊科技</a><a href="/services/#trade">國際貿易</a></div></div>
       <div class="footer-bottom"><small>© {new Date().getFullYear()} {site.company}</small><small>文物藝術・資訊科技・國際貿易</small></div>
+      <p class="copyright-notice">本網站所載藏品影像、圖鑑及文字內容，其著作權歸相關權利人所有；未經授權，請勿擅自重製、轉載、修改或作商業使用；如需引用或申請使用，請<a href="/contact/">聯絡中鼎文物有限公司</a>。</p>
     </footer>
     <script>
       const button=document.querySelector<HTMLButtonElement>('.menu-toggle');
@@ -42,3 +43,8 @@ const links = [['/collection/','文物典藏'],['/services/','專業服務'],['/
     </script>
   </body>
 </html>
+
+<style>
+  .copyright-notice { margin: 1.25rem 0 0; font-size: 0.8125rem; line-height: 1.9; opacity: 0.8; }
+  .copyright-notice a { text-decoration: underline; text-underline-offset: 0.2em; }
+</style>
