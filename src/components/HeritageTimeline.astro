@@ -1,0 +1,8 @@
+---
+import { history } from '../data/history';
+const { compact = false } = Astro.props;
+---
+<section class:list={['heritage-timeline', { compact }]} aria-labelledby={compact ? 'home-history-title' : 'about-history-title'}>
+  <div class="timeline-heading"><span class="eyebrow">OUR JOURNEY</span><h2 id={compact ? 'home-history-title' : 'about-history-title'}>中鼎里程</h2></div>
+  <ol>{history.map(entry => <li><span class="timeline-year">{entry.year}</span><h3>{entry.title}</h3><p>{entry.text}</p></li>)}</ol>
+</section>

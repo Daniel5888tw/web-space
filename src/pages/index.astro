@@ -1,19 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import ArtifactCard from '../components/ArtifactCard.astro';
+import HeritageTimeline from '../components/HeritageTimeline.astro';
 import items from '../data/collection.json';
-const featured=[items[3],items[2],items[4],items[13],items[7],items[24]];
+const featured = ['zd-004','zd-023','zd-014'].map(slug => items.find(item => item.slug === slug)!);
 ---
 <Layout>
-  <section class="hero dark">
-    <div class="hero-copy"><span class="eyebrow gold">ZHONG DING · ANTIQUES & HERITAGE ART</span><h1>器載千秋<br/><span>細看，方見不凡。</span></h1><p>從玉石雕刻的紋理、造型與工藝出發，<br class="desktop-only"/>探索器物之美，延續收藏與文化的對話。</p><div class="button-row"><a class="button gold-button" href="/collection/">探索文物典藏</a><a class="text-link" href="/about/">認識中鼎</a></div><div class="hero-note"><span>01 / SELECTED OBJECT</span><span>辟邪獸座觥 · 圖鑑選輯</span></div></div>
-    <div class="hero-art"><span class="vertical-note">形・紋・工・藝</span><img src="/images/zd-004.webp" alt="張口龍獸造型的辟邪獸座觥" width="1200" height="1250" fetchpriority="high" /><div class="hero-art-label"><span>典藏的魅力，藏在細節裡。</span><small>SELECTED COLLECTION</small></div></div>
-  </section>
-  <div class="discipline-bar"><span>文物收藏</span><span>展覽策畫</span><span>珍寶鑑定洽詢</span><span>國際拍賣協辦</span></div>
-  <section class="section intro-section"><div data-reveal><span class="eyebrow">A DIALOGUE ACROSS DISCIPLINES</span><h2>以文化為根，<br/>連結不同領域的價值。</h2></div><div data-reveal><p class="lead">中鼎文物以文物藝術、資訊科技與國際貿易為服務主軸，讓收藏交流與企業合作，都能找到清楚的起點。</p><p>從古物收藏、圖鑑與展覽，到電腦主機、AI 伺服器及資訊產品採購，我們重視每項需求的細節，依合作內容提供洽詢與安排。</p><a class="underlined-link" href="/services/">了解服務項目</a></div></section>
-  <section class="section collection-section"><div class="section-heading" data-reveal><div><span class="eyebrow">THE COLLECTION</span><h2>典藏選輯</h2></div><p>從圓雕瑞獸到鏤空紋飾，<br/>在不同器型之間，看見工藝的層次。</p><a class="underlined-link" href="/collection/">瀏覽全部選輯</a></div><div class="featured-grid">{featured.map((item,index)=><ArtifactCard item={item} index={index} />)}</div></section>
-  <section class="editorial dark"><div class="editorial-image"><img src="/images/zd-014.webp" alt="仙人、瑞獸與圓璧組成的玉石雕件" width="1400" height="1100" loading="lazy" /></div><div class="editorial-copy" data-reveal><span class="eyebrow gold">LOOK CLOSER</span><h2>一器之中，<br/>自有萬千氣象。</h2><p>獸形、人物與圓璧相互構成的畫面，既有雕刻的立體起伏，也有紋飾的疏密節奏。透過不同角度與細部觀看，讓欣賞從第一眼走向更深入的理解。</p><a class="button outline-button" href="/collection/zd-014/">欣賞這件作品</a></div></section>
-  <section class="section publication-preview"><div class="book-image" data-reveal><img src="/images/zd-034.webp" alt="中國高古帝陵玉器珍寶圖鑑封面" width="500" height="700" loading="lazy" /></div><div data-reveal><span class="eyebrow">PUBLICATION</span><h2>讓器物的細節，<br/>留在紙頁之間。</h2><h3>《中國高古帝陵玉器珍寶》</h3><p>由北星圖書出版，透過藏品影像與文字介紹，提供閱讀、觀賞與收藏交流的入口。</p><dl class="book-meta"><div><dt>出版</dt><dd>2016 年 6 月</dd></div><div><dt>ISBN</dt><dd>978-986-6399-47-3</dd></div></dl><a class="button dark-button" href="/publications/">閱讀圖鑑介紹</a></div></section>
-  <section class="section services-preview"><div class="section-heading"><div><span class="eyebrow">OUR EXPERTISE</span><h2>跨越領域，回應需求。</h2></div></div><div class="service-columns"><a href="/services/#art"><span>01 / HERITAGE ART</span><h3>文物與藝術服務</h3><p>古物收藏、展覽策畫、珍寶鑑定洽詢與國際拍賣協辦。</p></a><a href="/services/#technology"><span>02 / TECHNOLOGY</span><h3>資訊科技與設備</h3><p>電腦主機、AI 伺服器、資訊配件及企業採購需求。</p></a><a href="/services/#trade"><span>03 / INTERNATIONAL TRADE</span><h3>國際貿易合作</h3><p>海外產品採購與貿易合作，依品項及需求洽談。</p></a></div></section>
-  <section class="contact-banner dark"><span class="eyebrow gold">LET’S BEGIN A CONVERSATION</span><h2>收藏與合作，<br class="mobile-only"/>從一次對話開始。</h2><a class="button gold-button" href="/contact/">安排預約與洽詢</a></section>
+  <div class="heritage-home">
+    <section class="museum-hero dark" aria-labelledby="hero-title">
+      <div class="museum-hero-copy"><span class="eyebrow gold">始於 2009 · ZHONG DING HERITAGE</span><h1 id="hero-title">讓典藏與文化<br/>持續對話</h1><p>以文物為橋，連結過去與未來；<br/>在器物的細節裡，細讀文化的深意。</p><a class="button museum-button" href="/collection/">探索典藏 <span aria-hidden="true">→</span></a><span class="hero-footnote">文物保存 ／ 展覽交流 ／ 圖鑑出版</span></div>
+      <a class="museum-hero-object" href="/collection/zd-003/" aria-label="欣賞放射式獸紋圓盤"><img src="/images/zd-003.webp" alt="放射式獸紋圓盤全貌，可見環繞排列的獸形紋飾" width="1347" height="1800" fetchpriority="high" /><span>放射式獸紋圓盤 <span aria-hidden="true">↗</span></span></a>
+      <span class="museum-vertical" aria-hidden="true">文物有光・文化不息</span>
+    </section>
+    <section class="museum-intro section">
+      <div data-reveal><span class="eyebrow">ABOUT ZHONG DING</span><h2>十餘載耕耘，<br/>延續文物之美。</h2><p>中鼎文物成立於2009年，長期致力於文物保存、典藏整理與文化交流；協助藏家進行攝影、分類與資料研究，透過展覽及圖鑑出版，分享器物背後的歷史與藝術。</p><a class="underlined-link" href="/about/">認識中鼎 <span aria-hidden="true">→</span></a></div>
+      <a class="intro-detail" href="/collection/zd-014/" aria-label="欣賞仙人爵獸捧璧座匜"><img src="/images/zd-014.webp" alt="仙人爵獸捧璧座匜的立體雕刻與圓璧構圖" width="1400" height="1100" loading="lazy" /><span>細觀器物，見微知著。</span></a>
+    </section>
+    <HeritageTimeline compact />
+    <section class="section museum-collection">
+      <div class="museum-section-title" data-reveal><span class="eyebrow">SELECTED OBJECTS</span><h2>典藏選輯</h2><p>從圓盤紋飾、獸形器物到人物雕刻，<br/>在形、紋與工藝之間，展開細看的旅程。</p><a class="underlined-link" href="/collection/">瀏覽完整選輯 <span aria-hidden="true">→</span></a></div>
+      <div class="museum-featured">{featured.map((item,index) => <ArtifactCard item={item} index={index} />)}</div>
+    </section>
+    <section class="museum-publication dark">
+      <div class="museum-publication-heading" data-reveal><span class="eyebrow gold">PUBLICATIONS · 2016</span><h2>圖鑑出版</h2><p>以影像留存細節，<br/>以閱讀延續收藏的對話。</p><a class="underlined-link" href="/publications/">了解出版計畫 <span aria-hidden="true">→</span></a></div>
+      <a class="museum-book" href="/publications/" aria-label="閱讀中國高古帝陵玉器珍寶介紹"><img src="/images/zd-034.webp" alt="中國高古帝陵玉器珍寶實際圖鑑封面" width="650" height="880" loading="lazy" /></a>
+      <div class="museum-book-copy" data-reveal><span class="eyebrow gold">ILLUSTRATED CATALOGUE</span><h3>中國高古帝陵<br/>玉器珍寶</h3><p>與國內外專家及收藏家共同編纂，透過藏品全貌、細部影像與文字介紹，提供觀賞、閱讀與交流的入口。</p><dl><div><dt>初版</dt><dd>2016 年 6 月</dd></div><div><dt>出版</dt><dd>北星圖書</dd></div></dl><a class="publication-leaf" href="/collection/zd-029/"><img src="/images/zd-029.webp" alt="鏤空龍紋神人大璧圖鑑頁面" width="580" height="800" loading="lazy" /><span>走進圖鑑 <span aria-hidden="true">↗</span></span></a></div>
+    </section>
+    <section class="section museum-services"><div class="section-heading"><div><span class="eyebrow">HERITAGE & CONTEMPORARY CONNECTIONS</span><h2>以文化為根，連結當代。</h2></div><p>文物藝術、資訊科技與國際貿易，<br/>各有專業，也同樣重視每一份託付。</p></div><div class="service-columns"><a href="/services/#art"><span>01 / HERITAGE ART</span><h3>文物與藝術</h3><p>古物收藏、展覽策畫、珍寶鑑定洽詢與國際拍賣協辦。</p></a><a href="/services/#technology"><span>02 / TECHNOLOGY · SINCE 2025</span><h3>資訊科技與設備</h3><p>企業、政府機關與學校的資訊產品、電子零件、事務機器及耗材採購。</p></a><a href="/services/#trade"><span>03 / INTERNATIONAL TRADE</span><h3>國際貿易合作</h3><p>依產品品項與實際需求，洽談海外採購及貿易合作。</p></a></div></section>
+    <section class="contact-banner dark"><span class="eyebrow gold">A CONVERSATION BEGINS HERE</span><h2>讓每一次相遇，<br class="mobile-only"/>成為交流的起點。</h2><a class="button museum-button" href="/contact/">預約洽詢 <span aria-hidden="true">→</span></a></section>
+  </div>
 </Layout>
